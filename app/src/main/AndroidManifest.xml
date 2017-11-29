@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.owner.amazon_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Mobile" />
+        <activity android:name=".Fashion" />
+        <activity android:name=".Kitchen" />
+        <activity android:name=".Listofmob" />
+        <activity android:name=".Listofmoban" />
+        <activity android:name=".Listofmobap" />
+        <activity android:name=".Microsoft" />
+        <activity android:name=".Nokia635" />
+        <activity android:name=".Nokia1020" />
+        <activity android:name=".Samsung" />
+        <activity android:name=".Google" />
+        <activity android:name=".One_plus" />
+        <activity android:name=".Lg" />
+        <activity android:name=".I6s" />
+        <activity android:name=".I7s" />
+        <activity android:name=".Ise" />
+        <activity android:name=".I8s"></activity>
+    </application>
+
+</manifest>
